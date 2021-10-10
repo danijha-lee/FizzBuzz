@@ -13,6 +13,21 @@ main>.container {
     min-height: 90vh;
 }
 
+body{
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#fBFont {
+    font-family: 'Suez One', serif;
+    text-transform: uppercase;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
     white-space: pre-wrap;
@@ -82,3 +97,20 @@ footer .social>a:hover {
 .css3icon {
     color: blue;
 }
+
+#fbTitleFont{
+    font-family: 'Rubik Beastly',
+    cursive;
+}
+
+/* #honeyDripbg{
+    background-image: url("/img/drippingHoney.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#honeyComb {
+    background-image: url("/img/honeycomb.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+} */
